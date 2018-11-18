@@ -1,0 +1,52 @@
+
+#background_eventdesk
+{
+    z-index: 10;
+    margin-top: -10%;
+    width: 90%;
+    position: absolute;
+    overflow: auto;
+}
+#pins
+{
+    z-index: 30;
+    position: absolute;
+    margin-top: 6%;
+    width: 80%;
+    margin-left: 20%;
+}
+.wrapper
+{
+    z-index: 20;
+    margin-top: 6%;
+    margin-left: 7%;
+    position: absolute;
+}
+.slider
+{
+    z-index: 20;
+    position: absolute;
+}
+.container
+{
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 1300px;
+    min-height: 900px;
+}
+button:focus
+{
+    outline: 0;
+    color: #F7C92F;
+}
+.buttonText:hover {
+    color: #F7C92F;
+}
+
+.container {
+    position: relative;
+    max-width: 1220px;
+    max-height: 1080px;
+    min-width: 1200px;
+    min-height: 568px;
+}
